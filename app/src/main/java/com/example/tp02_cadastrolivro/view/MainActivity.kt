@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             alertaSucesso()
             edtNomeLivro.text.clear()
             edtAutorLivro.text.clear()
+            edtNomeLivro.requestFocus()
         }
 
         fabAvanca.setOnClickListener {
